@@ -8,8 +8,8 @@ public class MeetingApplication {
 
     public static void main(String[] args) {
 
-        MeetingApplication meetingApplication=new MeetingApplication();
-        SpringApplication application=new SpringApplication();
+//        MeetingApplication meetingApplication=new MeetingApplication();
+//        SpringApplication application=new SpringApplication();
         SpringApplication.run(MeetingApplication.class, args);
     }
 
