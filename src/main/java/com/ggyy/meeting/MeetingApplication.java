@@ -8,7 +8,6 @@ public class MeetingApplication {
 
     public static void main(String[] args) {
 
-//        SpringApplication application=new SpringApplication();
         SpringApplication.run(MeetingApplication.class, args);
     }
 
