@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="base-service" />
         <module name="repository-service" />
+        <module name="common-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="base-service" target="1.8" />
+      <module name="common-service" target="1.8" />
       <module name="MeetingRoom" target="1.8" />
       <module name="repository-service" target="1.8" />
     </bytecodeTargetLevel>
@@ -20,6 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="MeetingRoom" options="-parameters" />
       <module name="base-service" options="-parameters" />
+      <module name="common-service" options="-parameters" />
       <module name="repository-service" options="-parameters" />
     </option>
   </component>
