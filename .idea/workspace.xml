@@ -26,16 +26,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a33d1921-dba0-4e0c-ab87-902513faa2a6" name="Default Changelist" comment="来自小郭的第二次提交">
-      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/ggyy/configuration/SwaggerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/ggyy/exception/Assert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/ggyy/exception/RoomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/ggyy/exception/UnifiedExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/ggyy/result/ResponseEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/ggyy/util/RegexValidateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/ggyy/util/ResultVOUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/ggyy/vo/PageVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-service/src/main/java/com/ggyy/vo/ResultVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-service/account-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +77,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunManager">
@@ -103,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653737107281</updated>
       <workItem from="1653737117781" duration="1851000" />
-      <workItem from="1653992520547" duration="4388000" />
+      <workItem from="1653992520547" duration="5099000" />
     </task>
     <task id="LOCAL-00001" summary="来自小李的第二次提交">
       <created>1653765630575</created>
@@ -161,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653995305420</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="来自小郭的第二次提交">
+      <created>1653997033488</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653997033488</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,10 +209,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="651" y="54" width="585" height="495" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1653765114348" />
-    <state x="249" y="0" key="#Project_Structure" timestamp="1653995415051">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1653997316029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1653995415051" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1653997316029" />
     <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1653994876789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -216,10 +221,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1653764023112" />
-    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1653995097408">
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1653997467077">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1653995097408" />
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1653997467077" />
     <state width="1493" height="291" key="GridCell.Tab.0.bottom" timestamp="1653994640262">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -240,10 +245,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1653994242845" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1653995363435">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1653997051588">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1653995363435" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1653997051588" />
     <state x="555" y="199" key="git4idea.merge.GitMergeDialog" timestamp="1653764069216">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -256,9 +261,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="251" key="git4idea.ui.GitTagDialog/0.0.1536.824@0.0.1536.824" timestamp="1653764096489" />
-    <state x="178" y="72" key="new project wizard" timestamp="1653994633760">
+    <state x="178" y="72" key="new project wizard" timestamp="1653997154294">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1653994633760" />
+    <state x="178" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1653997154294" />
   </component>
 </project>

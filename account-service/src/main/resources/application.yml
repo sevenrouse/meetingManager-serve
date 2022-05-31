@@ -1,0 +1,25 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/meeting_management
+    username: root
+    password: 123
+
+  application:
+    name: account-service
+
+  redis:
+    database: 0
+    host: 192.168.248.138
+    port: 6379
+
+#关闭mybatis-plus在字段中加_的功能
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql日志
+    map-underscore-to-camel-case: false
+  mapper-locations: classpath:com/ggyy/mapper/xml/*.xml
+
